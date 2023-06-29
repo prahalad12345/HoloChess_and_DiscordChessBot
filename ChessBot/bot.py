@@ -46,6 +46,6 @@ async def on_command_error(ctx,error):
 async def main():
     async with client:
         await load() 
-        await client.start('MTExMzAwNzI3MjI4MTUyNjI5Mg.GZIKZi.hEVLBoiPdlIinTY8yNl3WLsgY6Xy1M4K0NhwpU')
+        await client.start('<DEVELOPER CODE>')#developer code of the bot
 
 asyncio.run(main())
