@@ -25,11 +25,11 @@ Developed a Mixed Reality Chess Program, HoloChess which is a chess game against
 
 ## Prerequisite
 Make sure you have installed all of the following prerequisites on your development machine:
-*Unity - [unity](https://unity.com/download).
-*MRTK - [mrtk](https://hololabinc.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html).
-*Stockfish - [stockfish](https://stockfishchess.org).
-*discord - [discord](https://discordpy.readthedocs.io/en/stable/).
-*chess - [chess](https://discordpy.readthedocs.io/en/stable/).
+* Unity - [unity](https://unity.com/download).
+* MRTK - [mrtk](https://hololabinc.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html).
+* Stockfish - [stockfish](https://stockfishchess.org).
+* discord - [discord](https://discordpy.readthedocs.io/en/stable/).
+* chess - [chess](https://discordpy.readthedocs.io/en/stable/).
 
 ## Running
 Build the unity project and Deploy it on Hololens.
