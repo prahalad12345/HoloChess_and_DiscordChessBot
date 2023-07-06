@@ -14,16 +14,16 @@ Developed a Mixed Reality Chess Program, HoloChess which is a chess game against
 | Pointers | Pointer is the way to interact with object in the Hololens world . The key ones used are Hand ray,Gaze,AirTap . refer https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/features/input/pointers?view=mrtkunity-2022-05 for more info|
 | UCI    | The Universal Chess Interface (UCI) is an open communication protocol that enables chess engines to communicate with user interfaces. |
 
-##Hololens
+## Hololens
 <add image of hololens>
 
-##Core Capabilities
+## Core Capabilities
 1. Concepts of Mesh Renderer to develop the chess tiles for easier calculation for positioning the chess pieces.
 2. The right-hand ray of the Hololens as the way of interaction with the chessboard
 3. UCI Protocol to communicate with Stockfish Engine 
 4. Adding OnGrabbable script and other prebuilt scripts to control the motion of the chess pieces
 
-##Prerequisite
+## Prerequisite
 Make sure you have installed all of the following prerequisites on your development machine:
 *Unity - [unity](https://unity.com/download).
 *MRTK - [mrtk](https://hololabinc.github.io/MixedRealityToolkit-Unity/Documentation/Installation.html).
@@ -31,18 +31,25 @@ Make sure you have installed all of the following prerequisites on your developm
 *discord - [discord](https://discordpy.readthedocs.io/en/stable/).
 *chess - [chess](https://discordpy.readthedocs.io/en/stable/).
 
-##Running
+## Running
 Build the unity project and Deploy it on Hololens.
 Run the python code to make the discord chess bot active.
 
 <add image of your hololens proj>
 
-##Reference
-
-https://www.youtube.com/watch?v=qVhG6ZWqD-o&list=PLmcbjnHce7SeAUFouc3X9zqXxiPbCz8Zp
+## Reference
 
 
-##Add Ons
+| Topic      | Reference Link |
+| ----------- | ----------- |
+| Chess Board and Mechanism | https://www.youtube.com/watch?v=qVhG6ZWqD-o&list=PLmcbjnHce7SeAUFouc3X9zqXxiPbCz8Zp |
+| Discord API | https://discordpy.readthedocs.io/en/stable/ |
+| MRTK documentation | https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05  |
+| Unity Documentation | https://docs.unity3d.com/Manual/index.html |
+
+
+
+## Add Ons
 1) Integrate Holochess to the discord Bot through rest API so that the Holochess player can play through his Hololens while the other player can communicate through Discord.
 2) This Project doesn't work with the current stockfish because it isn't supported on Hololens yet . It recieves results from stockfish when run on unity (since it is using my pc spec for the same). Used UCI but it wasn't working on Hololens so have to find an alternative for stockfish. If you build to develop on this you can use stockfish unity asset which is 150$ .
 
