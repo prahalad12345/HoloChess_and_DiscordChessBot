@@ -15,7 +15,8 @@ Developed a Mixed Reality Chess Program, HoloChess which is a chess game against
 | UCI    | The Universal Chess Interface (UCI) is an open communication protocol that enables chess engines to communicate with user interfaces. |
 
 ## Hololens
-<add image of hololens>
+
+[Hololens](https://github.com/prahalad12345/HoloChess_and_DiscordChessBot/blob/main/images/Hololens.jpeg)
 
 ## Core Capabilities
 1. Concepts of Mesh Renderer to develop the chess tiles for easier calculation for positioning the chess pieces.
@@ -35,7 +36,7 @@ Make sure you have installed all of the following prerequisites on your developm
 Build the unity project and Deploy it on Hololens.
 Run the python code to make the discord chess bot active.
 
-<add image of your hololens proj>
+[MRTK simulation](https://github.com/prahalad12345/HoloChess_and_DiscordChessBot/blob/main/images/MRTK_chess_run.png)
 
 ## Reference
 
