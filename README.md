@@ -11,7 +11,7 @@ Developed a Mixed Reality Chess Program, HoloChess which is a chess game against
 | ----------- | ----------- |
 | Mixed Reality    | Mixed reality is a blend of physical and digital worlds, unlocking natural and intuitive 3D human, computer, and environmental interactions. This new reality is based on advancements in computer vision, graphical processing, display technologies, input systems, and cloud computing.   |
 | MRTK    | MRTK-Unity is a Microsoft-driven project that provides a set of components and features, used to accelerate cross-platform MR app development in Unity.  |
-| Pointers | Pointer is the way to interact with object in the Hololens world . The key ones used are Hand ray,Gaze,AirTap . refer https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/features/input/pointers?view=mrtkunity-2022-05 for more info|
+| Pointers | Pointer is how to interact with objects in the Hololens world. The key ones used are Hand ray, Gaze, and AirTap. refer to https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/features/input/pointers?view=mrtkunity-2022-05 for more info|
 | UCI    | The Universal Chess Interface (UCI) is an open communication protocol that enables chess engines to communicate with user interfaces. |
 
 ## Hololens
